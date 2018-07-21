@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>CRUD JS</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="container">
+            <a href="#" class="navbar-brand mr-5">CRUD JS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav">
+                    <li class="nav-item ml-2"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item ml-2"><a href="#" class="nav-link">Opções</a></li>
+                    <li class="nav-item ml-2"><a href="#" class="nav-link">Perfil</a></li>
+                </ul>
+            </div>
+       </div>
+    </nav>
+    
+    <div id="main" class="container-fluid">
+        <h2 class="pt-5 pb-3">Identificação</h2><hr>
+        
+        <h4 class="pt-3 pb-3">Faça seu cadastro</h4>
+        
+        <form action="">
+            <div class="row">
+               
+                <div class="form-group col-sm-12 col-lg-12">
+                    <label for="">Nome Completo</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-12 col-lg-12">
+                    <label for="">E-mail</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-6 col-lg-6">
+                    <label for="">Senha</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-6 col-lg-6">
+                    <label for="">Confirmar a senha</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-6 col-lg-6">
+                    <label for="">Número do CPF</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-6 col-lg-6">
+                    <label>Sexo</label>
+                    <select name="sexo" id="" class="custom-select">
+                        <option selected>Selecione...</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                        <option value="O">Outros</option>
+                    </select>
+                </div>
+                               
+                <div class="form-group col-sm-3 col-lg-3">
+                    <label for="">Data de Nascimento</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-3 col-lg-3">
+                    <label for="">Telefone</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-3 col-lg-3">
+                    <label for="">Celular</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-3 col-lg-3">
+                    <label for="">Outro Telefone</label>
+                    <input type="text" class="form-control">
+                </div>
+                
+            </div><hr>
+                
+            <h4 class="pt-3 pb-3">Endereço</h4>
+            <p>Esse será o endereço de cobrança. Ao fechar seu pedido pediremos o endereço de entrega.</p>
+            <p class="end_aviso pb-3">Atenção! Não fazemos entregas em endereço de Caixa Postal.</p>
+        
+            <div class="row">
+               
+               <div class="form-group col-sm-6 col-lg-6">
+                    <label>Pais</label>
+                    <select name="sexo" id="" class="custom-select">
+                        <option selected>Brasil</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-6 col-lg-6">
+                    <label for="">Cep</label>
+                    <input type="text" class="form-control">                
+                    <a href="">Não sei meu cep</a>                
+                </div>
+              
+                <div class="form-group col-sm-4 col-lg-4">
+                    <label for="">Endereço</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-3 col-lg-3">
+                    <label for="">Numero</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-5 col-lg-5">
+                    <label for="">Complemento</label>    
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-4 col-lg-4">
+                    <label for="">Bairro</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-sm-4 col-lg-4">
+                    <label>Estado</label>
+                    <select name="sexo" id="" class="custom-select">
+                        <option selected>Selecione...</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-4 col-lg-4">
+                    <label>Cidade</label>
+                    <select name="sexo" id="" class="custom-select">
+                        <option selected>Selecione...</option>
+                    </select>
+                </div>
+                <div class="form-check col-sm-10 col-lg-10 ml-3 mb-4">
+                    <input type="checkbox" class="form-check-input" value="" >
+                    <label class="form-check-label" for="">Desejo receber e-mails de ofertas promocionais</label>
+                </div>
+                <div class="col-sm-8 col-lg-8 mb-5" >
+                    <button class="btn mr-2 p-2">Voltar</button>
+                    <button class="btn btn-dark p-2">Finalizar Cadastro</button>
+                </div>
+            </div> 
+              
+        </form>
+        
+        
+    </div>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
