@@ -32,126 +32,126 @@
             </div>
        </div>
     </nav>
-    
-    <div id="main" class="container-fluid">
-        <h2 class="pt-5 pb-3">Identificação</h2><hr>
-        
-        <h4 class="pt-3 pb-3">Faça seu cadastro</h4>
-        
-        <form action="">
-            <div class="row">
-               
-                <div class="form-group col-sm-12 col-lg-12">
-                    <label for="">Nome Completo</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-12 col-lg-12">
-                    <label for="">E-mail</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-6 col-lg-6">
-                    <label for="">Senha</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-6 col-lg-6">
-                    <label for="">Confirmar a senha</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-6 col-lg-6">
-                    <label for="">Número do CPF</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-6 col-lg-6">
-                    <label>Sexo</label>
-                    <select name="sexo" id="" class="custom-select">
-                        <option selected>Selecione...</option>
-                        <option value="M">Masculino</option>
-                        <option value="F">Feminino</option>
-                        <option value="O">Outros</option>
-                    </select>
-                </div>
-                               
-                <div class="form-group col-sm-3 col-lg-3">
-                    <label for="">Data de Nascimento</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-3 col-lg-3">
-                    <label for="">Telefone</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-3 col-lg-3">
-                    <label for="">Celular</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-3 col-lg-3">
-                    <label for="">Outro Telefone</label>
-                    <input type="text" class="form-control">
-                </div>
-                
-            </div><hr>
-                
-            <h4 class="pt-3 pb-3">Endereço</h4>
-            <p>Esse será o endereço de cobrança. Ao fechar seu pedido pediremos o endereço de entrega.</p>
-            <p class="end_aviso pb-3">Atenção! Não fazemos entregas em endereço de Caixa Postal.</p>
-        
-            <div class="row">
-               
-               <div class="form-group col-sm-6 col-lg-6">
-                    <label>Pais</label>
-                    <select name="sexo" id="" class="custom-select">
-                        <option selected>Brasil</option>
-                    </select>
-                </div>
-                <div class="form-group col-sm-6 col-lg-6">
-                    <label for="">Cep</label>
-                    <input type="text" class="form-control">                
-                    <a href="">Não sei meu cep</a>                
-                </div>
-              
-                <div class="form-group col-sm-4 col-lg-4">
-                    <label for="">Endereço</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-3 col-lg-3">
-                    <label for="">Numero</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-5 col-lg-5">
-                    <label for="">Complemento</label>    
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-4 col-lg-4">
-                    <label for="">Bairro</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-sm-4 col-lg-4">
-                    <label>Estado</label>
-                    <select name="sexo" id="" class="custom-select">
-                        <option selected>Selecione...</option>
-                    </select>
-                </div>
-                <div class="form-group col-sm-4 col-lg-4">
-                    <label>Cidade</label>
-                    <select name="sexo" id="" class="custom-select">
-                        <option selected>Selecione...</option>
-                    </select>
-                </div>
-                <div class="form-check col-sm-10 col-lg-10 ml-3 mb-4">
-                    <input type="checkbox" class="form-check-input" value="" >
-                    <label class="form-check-label" for="">Desejo receber e-mails de ofertas promocionais</label>
-                </div>
-                <div class="col-sm-8 col-lg-8 mb-5" >
-                    <button class="btn mr-2 p-2">Voltar</button>
-                    <button class="btn btn-dark p-2">Finalizar Cadastro</button>
-                </div>
-            </div> 
-              
-        </form>
-        
-        
-    </div>
-    
-    
+    <main>
+        <div id="main" class="container-fluid">
+            <h2 class="pt-5 pb-3">Identificação</h2><hr>
+
+            <h4 class="pt-3 pb-3">Faça seu cadastro</h4>
+
+            <form action="">
+                <div class="row">
+
+                    <div class="form-group col-sm-12 col-lg-12">
+                        <label for="">Nome Completo <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-12 col-lg-12">
+                        <label for="">E-mail <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-6">
+                        <label for="">Senha <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-6">
+                        <label for="">Confirmar a senha <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-6">
+                        <label for="">Número do CPF <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-6">
+                        <label>Sexo</label>
+                        <select name="sexo" id="" class="custom-select">
+                            <option selected>Selecione...</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                            <option value="O">Outros</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-sm-6 col-lg-3">
+                        <label for="">Data de Nascimento <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-3">
+                        <label for="">Telefone</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-3">
+                        <label for="">Celular <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-3">
+                        <label for="">Outro Telefone</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                </div><hr>
+
+                <h4 class="pt-3 pb-3">Endereço</h4>
+                <p>Esse será o endereço de cobrança. Ao fechar seu pedido pediremos o endereço de entrega.</p>
+                <p class="end_aviso pb-3">Atenção! Não fazemos entregas em endereço de Caixa Postal.</p>
+
+                <div class="row">
+
+                   <div class="form-group col-sm-6 col-lg-6">
+                        <label>Pais <span class="asterisco">*</span></label>
+                        <select name="sexo" id="" class="custom-select">
+                            <option selected>Brasil</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-6">
+                        <label for="">Cep <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">                
+                        <a href="">Não sei meu cep</a>                
+                    </div>
+
+                    <div class="form-group col-sm-4 col-lg-4">
+                        <label for="">Endereço <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-3 col-lg-3">
+                        <label for="">Numero <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-5 col-lg-5">
+                        <label for="">Complemento</label>    
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-4 col-lg-4">
+                        <label for="">Bairro <span class="asterisco">*</span></label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-4 col-lg-4">
+                        <label>Estado <span class="asterisco">*</span></label>
+                        <select name="estado" id="" class="custom-select">
+                            <option selected>Selecione...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-4 col-lg-4">
+                        <label>Cidade <span class="asterisco">*</span></label>
+                        <select name="cidade" id="" class="custom-select">
+                            <option selected>Selecione...</option>
+                        </select>
+                    </div>
+                    <div class="form-check col-sm-10 col-lg-10 ml-3 mb-4">
+                        <input type="checkbox" class="form-check-input" value="" >
+                        <label class="form-check-label" for="">Desejo receber e-mails de ofertas promocionais</label>
+                    </div>
+                    <div class="col-sm-8 col-lg-8 mb-5" >
+                        <button class="btn mr-2 p-2">Voltar</button>
+                        <button class="btn btn-dark p-2">Finalizar Cadastro</button>
+                    </div>
+                </div> 
+
+            </form>
+
+
+        </div>
+
+    </main>    
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
